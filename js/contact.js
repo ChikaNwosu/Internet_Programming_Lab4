@@ -35,5 +35,7 @@ function validateContactForm(event) {
         event.preventDefault();
     } else {
         alert("Form submitted successfully!");
+        valid = false;
     }
+    return valid;
 }
