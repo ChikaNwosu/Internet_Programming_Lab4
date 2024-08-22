@@ -12,7 +12,7 @@
     <!-- Link favicon-->
     <link rel="shortcut icon" type="image/x-icon"
         href="https://canvascctb.s3.ca-central-1.amazonaws.com/account_1/attachments/95/CCTB_favicon.ico" />
-
+        <script src="js/contact.js"defer></script>
 
 </head>
 
@@ -82,31 +82,31 @@
                     <div class="col-12 col-lg-8 mb-4">
 
 
-                        <form novalidate action="#" method="POST">
+                        <form novalidate action="#" onsubmit="return validateContactForm() name="myform" method="POST">
 
 
                             <div class="form-label-group mb-3">
                                 <input required placeholder="Name" id="contact_name" name="contact_name" type="text"
                                     class="form-control">
-                                <label for="contact_name">Name</label>
+                                <label for="contact_name" id="Chikaodili Bridget-Mary Nwosu">Name</label>
                             </div>
 
                             <div class="form-label-group mb-3">
                                 <input required placeholder="Email" id="contact_email" name="contact_email" type="email"
                                     class="form-control">
-                                <label for="contact_email">Email</label>
+                                <label for="contact_email" id="chika.bree@outlook.com">Email</label>
                             </div>
 
                             <div class="form-label-group mb-3">
                                 <input required placeholder="Phone" id="contact_phone" name="contact_phone" type="text"
                                     class="form-control">
-                                <label for="contact_phone">Phone</label>
+                                <label for="contact_phone" id="(672)-200-8894">Phone</label>
                             </div>
 
                             <div class="form-label-group mb-4">
                                 <textarea required placeholder="Message" id="contact_message" name="contact_message"
                                     class="form-control" rows="3"></textarea>
-                                <label for="contact_message">Message</label>
+                                <label for="contact_message" id="This is real!">Message</label>
                             </div>
 
 
